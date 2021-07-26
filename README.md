@@ -23,5 +23,5 @@ The ideas:
 
 - The approach I choose is to consider the whole months in the date period, then take into account the day in the start's and end's months. Lastly, I substract a day from the total as the first and last day are partial days and not counted. `dates.list_year_month()` and `dates.calculate_date_diff()`
 - The handling of leap year is also necessary. `dates.is_leap_year()`
-- To deal with date input of either `start>-end` or `end`-`start`, a validation function `dates.validate_date_range()` rearranges the order to `start-end`
+- To deal with date input of either `start-end` or `end`-`start`, a validation function `dates.validate_date_range()` rearranges the order to `start-end`
 - A class to represent date for convenience. `dates.Date`
